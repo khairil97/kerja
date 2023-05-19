@@ -1,1 +1,17 @@
-proxmox merupakan salah satu platform virtualisasi open-source berbasis Linux Debian, baik hardware maupun operating system, untuk mengelola dua teknologi virtualisasi.
+proxmox merupakan salah satu platform virtualisasi open-source berbasis Linux Debian, baik hardware maupun operating system, untuk mengelola dua teknologi virtualisasi. Fungsi Proxmox VE
+Proxmox VE memiliki fungsi khusus sebagai virtualisasi appliance maupun operating system. Berikut beberapa teknologi virtualisasi yang dapat digunakan pada Proxmox VE. 
+
+
+    Kernel Virtual Machine (KVM) 
+
+Merupakan Kernel-based virtual machine yang ditambahkan pada Linux untuk membuat full virtualisasi. KVM ini juga merupakan bagian integral dari Linux sejak 2007. 
+
+
+    Linux Container (LXC) 
+
+Kerap disebut sebagai virtualisasi operating system (OS), LXC adalah virtualisasi yang menggunakan container. Virtualisasi ini memiliki tingkat efisiensi yang tinggi dan juga kecepatan aksesnya menjadikan LXC berkembang dengan cepat.  
+
+
+    QEMU 
+
+QEMU menyediakan emulasi dan virtualisasi interface.
